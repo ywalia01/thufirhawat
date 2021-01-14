@@ -9,7 +9,9 @@ bot.get_updates(fail_silently: true) do |message|
   message.reply do |reply|
     case command
     when /list/i
-      reply.text = "[/tmkc], [/govt], [/wd], [/list], [/heavy], [/cong], [/greet], [/swear], [/rfor], [/sarthak], [/janit], [/manas], [/yash], [/sleep]"
+      reply.text = "[/zuck], [/tmkc], [/govt], [/wd], [/list], [/heavy], [/cong], [/greet], [/swear], [/rfor], [/sarthak], [/janit], [/manas], [/yash], [/sleep]"
+    when /zuck/i
+        reply.text = "Mark Zuckerberg की मा की चूत"
     when /tmkc/i
         reply.text = "तेरी मा की चूत"
     when /govt/i
