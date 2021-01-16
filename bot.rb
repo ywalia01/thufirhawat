@@ -9,9 +9,15 @@ bot.get_updates(fail_silently: true) do |message|
   message.reply do |reply|
     case command
     when /list/i
-      reply.text = "[/zuck], [/tmkc], [/govt], [/wd], [/list], [/heavy], [/cong], [/greet], [/swear], [/rfor], [/sarthak], [/janit], [/manas], [/yash], [/sleep]"
+      reply.text = "[/gm], [/gn], [/chup], [/zuck], [/tmkc], [/govt], [/wd], [/list], [/heavy], [/cong], [/greet], [/swear], [/rfor], [/sarthak], [/janit], [/manas], [/yash], [/sleep]"
+    when /gm/i
+        reply.text = "Good morning bhosdiwalo!"
+    when /gn/i
+        reply.text = "Gunnieee"
+    when /chup/i
+        reply.text = "Chup kar jaa chetibod"
     when /zuck/i
-        reply.text = "Mark Zuckerberg की मा की चूत"
+        reply.text = "मार्क जुकरबर्ग की मा की चूत"
     when /tmkc/i
         reply.text = "तेरी मा की चूत"
     when /govt/i
@@ -19,11 +25,11 @@ bot.get_updates(fail_silently: true) do |message|
     when /wd/i
         reply.text = "Waell Done!"
     when /heavy/i
-        reply.text = "Tam toh bade heavy driver hoe"
+        reply.text = "तम तोह बड़े हैवी ड्राइवर हो"
     when /cong/i
         reply.text = "Congrates bhai!"
     when /rfor/i
-      reply.text = "Randi @srivsarthak"
+      reply.text = "Randi @janitchawla"
     when /swear/i
         reply.text = "Abey jaa na bhosdike"
     when /sarthak/i

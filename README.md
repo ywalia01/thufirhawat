@@ -1,3 +1,3 @@
 # thufirhawat
 
-A rude telegram bot made for personal usage.
+A rude made for personal usage.
